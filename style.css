@@ -49,9 +49,11 @@
     }
 
     img {
-    width: 100%;
-    display: block;
+        max-width: 100%;
+        height: auto;
+        display: block;
     }
+    
 
     a {
     text-decoration: none;
@@ -215,12 +217,12 @@
     background:
         radial-gradient(circle at 75% 30%, rgba(229, 9, 20, 0.28), transparent 32%),
         linear-gradient(90deg, rgba(5, 5, 5, 0.98), rgba(5, 5, 5, 0.72)),
-        url("https://images.unsplash.com/photo-1632823469850-1b7b1e8b7e1e?auto=format&fit=crop&w=1800&q=85");
-    background-size: cover;
-    background-position: center;
-    color: var(--color-white);
+        url("./img/img9.webp");
+        background-size: cover;
+        background-position: center;
+        color: var(--color-white);
     }
-
+    
     .hero-content {
     max-width: 840px;
     padding: 96px 0;
